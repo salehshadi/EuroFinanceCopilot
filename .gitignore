@@ -153,4 +153,4 @@ Dockerfile
 *.deb
 
 # our data
-data/*
+# data/*
