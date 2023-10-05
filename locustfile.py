@@ -18,10 +18,9 @@ class ChatUser(HttpUser):
                     {
                         "user": random.choice(
                             [
-                                "What is included in my Northwind Health Plus plan that is not in standard?",
-                                "What does a Product Manager do?",
-                                "What happens in a performance review?",
-                                "Whats your whistleblower policy?",
+                                "How to avoid double taxation?",
+                                "How do I start long term investment?",
+                                "How to register a business for VAT?",
                             ]
                         )
                     }
@@ -42,10 +41,10 @@ class ChatUser(HttpUser):
             json={
                 "history": [
                     {
-                        "user": "What happens in a performance review?",
-                        "bot": "During the performance review at Contoso Electronics, the supervisor will discuss the employee's performance over the past year and provide feedback on areas for improvement. They will also provide an opportunity for the employee to discuss their goals and objectives for the upcoming year. The review is a two-way dialogue between managers and employees, and employees will receive a written summary of their performance review which will include a rating of their performance, feedback, and goals and objectives for the upcoming year [employee_handbook-3.pdf].",
+                        "user": "How to avoid double taxation?",
+                        "bot": "Utilizing tax treaties or conventions: Many countries have signed bilateral tax treaties or conventions with each other to prevent double taxation. These agreements typically provide mechanisms such as tax credits or exemptions to eliminate or reduce the impact of double taxation. [employee_handbook-3.pdf].",
                     },
-                    {"user": "Does my plan cover eye exams?"},
+                    {"user": "Can I claim tax credits?"},
                 ],
                 "approach": "rrr",
                 "overrides": {
