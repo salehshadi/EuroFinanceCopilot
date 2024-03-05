@@ -236,6 +236,7 @@ const Chat = () => {
                                         <UserChatMessage message={streamedAnswer[0]} />
                                         <div className={styles.chatMessageGpt}>
                                             <Answer
+                                                thought={()=>{}}
                                                 isStreaming={true}
                                                 key={index}
                                                 answer={streamedAnswer[1]}
@@ -254,6 +255,7 @@ const Chat = () => {
                                         <UserChatMessage message={answer[0]} />
                                         <div className={styles.chatMessageGpt}>
                                             <Answer
+                                                thought={()=>{}}
                                                 isStreaming={false}
                                                 key={index}
                                                 answer={answer[1]}

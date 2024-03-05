@@ -186,6 +186,7 @@ export function Component(): JSX.Element {
                 {!isLoading && answer && !error && (
                     <div className={styles.oneshotAnswerContainer}>
                         <Answer
+                            thought={()=>{}}
                             answer={answer}
                             isStreaming={false}
                             onCitationClicked={x => onShowCitation(x)}
